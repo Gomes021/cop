@@ -107,7 +107,6 @@ h1{
 	justify-content: center;
 	align-items: center;
 	position: relative;
-	flex-direction: column;
 	flex-wrap: wrap;
 	margin: 10px;
 	background-color: #fff;
@@ -119,6 +118,11 @@ h1{
 	padding: 15px;
 	font-size: 0.7em;
 }
+
+.ct-container {
+	display: flex;
+}
+
 .container3{
 	display: flex;
 	justify-content: center;
